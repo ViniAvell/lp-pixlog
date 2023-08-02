@@ -149,8 +149,13 @@ body{
   }
 
   .section__01 {
-    background-color: var(--cor--terciaria);
-    
+    background-color: var(--cor--terciaria);    
+  }
+
+  .layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .section__01 h1 {
