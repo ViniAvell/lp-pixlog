@@ -150,6 +150,7 @@ body{
 
   .section__01 {
     background-color: var(--cor--terciaria);
+    
   }
 
   .section__01 h1 {
@@ -172,3 +173,17 @@ body{
     font-weight: 400px;
     padding: 0px 230px 20px 230px;
   }
+
+  .section__01 button {
+    font-size: 20px;
+    color: var(--cor--terciaria);
+    background-color: var(--cor--secundaria);
+    padding: 15px 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 3px solid var(--cor--terciaria);
+    
+  }
+    
+
+  
