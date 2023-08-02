@@ -130,7 +130,7 @@ body{
     color: var(--cor--secundaria);
   }
 
-  .card__botao{
+  .card__botao {
     font-size: 23px;
     color: var(--cor--terciaria);
     background: transparent;
@@ -141,9 +141,23 @@ body{
     transition: 0.3s;
   }
   
-  .card__botao:hover{
+  .card__botao:hover {
     background-color: var(--cor--secundaria);
     border: 3px solid var(--cor--secundaria);
     
     font-weight: 300;
+  }
+
+  .formulario__campos {
+    font-family: var(--fonte--primaria);
+    font-size: 0.75em;
+    color: var(--cor--terciaria);
+    text-align: justify;
+    padding: 5% 0 5% 0;
+ 
+    
+
+
+
+
   }
