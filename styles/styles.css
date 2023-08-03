@@ -59,7 +59,9 @@ body{
 /* BANNER VIDEO PIXLOG */
 .container{
     width: 100%;
-    height: 100vh;
+    height: 100vh
+    
+    ;
     background-color: rgba(0,0,0,0.5);
     display: flex;
     align-items: center;
@@ -152,15 +154,15 @@ body{
   }
 
   .section__01__cabecalho {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .layout {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 30px 200px 30px 200px;
+    gap: 60px;
   }
 
   .section__01__lista {
@@ -197,7 +199,7 @@ body{
 
   .section__01 li {
     color: var(--cor--primaria);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400px;
     padding: 7px 0 7px 0;   
   }
@@ -215,6 +217,23 @@ body{
     text-decoration: none;
     border: 3px solid var(--cor--terciaria);  
   }
-    
+
+  .section__01__bloco__texto__inf {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 100px 50px 100px;
+  }
+
+  .section__01__topicos h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .section__01__topicos h3 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
 
   
