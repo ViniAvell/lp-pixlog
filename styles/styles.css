@@ -225,6 +225,13 @@ body{
     padding: 50px 300px 50px 300px;
   }
 
+  .section__01_folhas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
   .section__01__topicos h2 {
     font-size: 18px;
     font-weight: 600;
