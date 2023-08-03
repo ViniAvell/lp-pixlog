@@ -143,8 +143,7 @@ body{
   
   .card__botao:hover {
     background-color: var(--cor--secundaria);
-    border: 3px solid var(--cor--secundaria);
-    
+    border: 3px solid var(--cor--secundaria);    
     font-weight: 300;
   }
 
@@ -152,42 +151,57 @@ body{
     background-color: var(--cor--terciaria);    
   }
 
+  .section__01__cabecalho {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
   .layout {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 30px 200px 30px 200px;
+  }
+
+  .section__01__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 
   .section__01 h1 {
     color: var(--cor--primaria);
     font-size: 28px;
     font-weight: 400px;
-    padding: 100px 230px 20px 230px;
+    padding: 50px 0 10px 0;
   }
 
   .section__01 p {
     color: var(--cor--primaria);
-    font-size: 20px;
-    font-weight: 400px;
-    padding: 0px 230px 20px 230px;
+    font-size: 18px;
+    font-weight: 400px;    
   }
 
   .section__01 li {
     color: var(--cor--primaria);
     font-size: 20px;
     font-weight: 400px;
-    padding: 0px 230px 20px 230px;
+    padding: 7px 0 7px 0;   
+  }
+
+  .section__01__botao {
+    padding-top: 40px;
+   
   }
 
   .section__01 button {
     font-size: 20px;
     color: var(--cor--terciaria);
     background-color: var(--cor--secundaria);
-    padding: 15px 50px;
+    padding: 15px 150px;
     border-radius: 50px;
     text-decoration: none;
-    border: 3px solid var(--cor--terciaria);
-    
+    border: 3px solid var(--cor--terciaria);  
   }
     
 
