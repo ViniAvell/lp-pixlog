@@ -221,8 +221,8 @@ body{
   .section__01__bloco__texto__inf {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    padding: 50px 100px 50px 100px;
+    gap: 150px;
+    padding: 50px 300px 50px 300px;
   }
 
   .section__01__topicos h2 {
