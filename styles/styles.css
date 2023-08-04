@@ -226,6 +226,12 @@ body{
     padding: 50px 100px 50px 100px;
   }
 
+  .section__01__bloco__texto__layout {
+    display: flex;    
+    align-items: baseline;
+    gap: 10px;
+  }
+
   .section__01_folhas {
     display: flex;
     flex-direction: row;
@@ -233,6 +239,11 @@ body{
     gap: 10px;
   }
 
+  .section__01__topicos img {
+    width: 30px;
+
+  }
+  
   .section__01__topicos h2 {
     font-size: 18px;
     font-weight: 600;
