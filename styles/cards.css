@@ -20,23 +20,9 @@
     --fonte--primaria: 'Inter', sans-serif;
 }
 
-.section__02 {
-  font-family: var(--fonte--primaria);
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-}
-
 .main__cards{
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.section__02 h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
 }
 
 .section__02 img {
