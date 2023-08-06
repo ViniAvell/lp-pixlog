@@ -86,7 +86,6 @@
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
-  margin: 0px;
 }
 
 .card__text__sol {
@@ -96,4 +95,11 @@
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
+}
+
+.card__content__title__ben{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
