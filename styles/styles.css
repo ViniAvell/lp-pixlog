@@ -254,5 +254,9 @@ body{
     font-weight: 500;
   }
 
+  .section__02 {
+    background-color: var(--cor--terciaria);
+  }
+
 
   
