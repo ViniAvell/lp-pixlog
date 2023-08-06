@@ -1,0 +1,99 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root{
+    --cor--primaria: #132B39;
+    --cor--secundaria: #86C549;
+    --cor--terciaria: #FFFFFF;
+    --cor--quaternaria: #27272795;
+}
+
+/* FONTES */
+:root{
+    --fonte--primaria: 'Inter', sans-serif;
+}
+
+.section__02 {
+    background-color: var(--cor--terciaria);
+    font-family: var(--fonte--primaria);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 1rem;
+  }
+
+.main__cards{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section__02 img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards__sol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item__sol {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards__item__sol {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards__item__sol {
+    width: 33.3333%;
+  }
+}
+
+.card__sol {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content__sol {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #132B39 50%, #23516c 100%);
+}
+
+.card__title__sol {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card__text__sol {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
