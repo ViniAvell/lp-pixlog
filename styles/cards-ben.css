@@ -107,8 +107,17 @@
 }
 
 .section__03__titulo__ben {
+  color: var(--cor--primaria);
   display: flex;
   align-items: baseline;
   gap: 10px;
-  padding: 100px 100px 0 100px;
+  padding: 30px 100px 0 100px;
+}
+
+.section__03__subtitulo {
+  color: var(--cor--primaria);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 100px 30px 100px;
+
 }
