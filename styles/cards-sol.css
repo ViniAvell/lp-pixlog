@@ -59,6 +59,7 @@
 .card__sol {
   background-color: white;
   border-radius: 1rem;
+  background: linear-gradient(to bottom left, #132B39 50%, #23516c 100%);
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
@@ -67,7 +68,6 @@
 
 .card__content__sol {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #132B39 50%, #23516c 100%);
 }
 
 .card__title__sol {
