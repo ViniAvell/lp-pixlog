@@ -205,7 +205,8 @@ body{
   }
 
   .section__01__botao {
-    padding-top: 40px;   
+    padding-top: 40px;
+       
   }
 
   .section__01 button {
@@ -275,6 +276,22 @@ body{
     font-weight:bold;
   }
 
-  
+  .section__03__botao {
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   }
+
+  .section__03__botao button { 
+      font-size: 20px;
+      color: var(--cor--terciaria);
+      background-color: var(--cor--secundaria);
+      padding: 15px 150px;
+      border-radius: 50px;
+      text-decoration: none;
+      border: 3px solid var(--cor--terciaria);  
+
+  }
+    
   
 
