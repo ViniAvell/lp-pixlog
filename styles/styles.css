@@ -27,7 +27,7 @@ ul{
 
 /* CORPO PRINCIPAL */
 body{
-    background-color: var(--cor--primaria);
+    background-color: var(--cor--terciaria);
     font-family: var(--fonte--primaria);
     color: var(--cor--terciaria);
 }
@@ -290,8 +290,30 @@ body{
       border-radius: 50px;
       text-decoration: none;
       border: 3px solid var(--cor--terciaria);  
-
   }
+
+  
+
+.section__04__plan__titulo {
+  display: flex;
+  flex-direction: row;  
+}
+
+  .section__04__plan h1 {
+    color: var(--cor--primaria);
+    font-weight:bold;       
+  }
+
+  .section__04__plan p {
+    color: var(--cor--primaria);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 100px 30px 100px;
+    
+  }
+
+ 
+
     
   
 
