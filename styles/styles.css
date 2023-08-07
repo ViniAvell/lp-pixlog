@@ -292,11 +292,12 @@ body{
       border: 3px solid var(--cor--terciaria);  
   }
 
-  
+
 
 .section__04__plan__titulo {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row; 
+  padding: 10px 100px 0px 100px;
 }
 
   .section__04__plan h1 {
@@ -308,11 +309,17 @@ body{
     color: var(--cor--primaria);
     font-size: 18px;
     font-weight: 400;
-    padding: 10px 100px 30px 100px;
-    
+        
   }
 
- 
+  .section__04__subtitulo {
+    color: var(--cor--primaria);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 100px 30px 100px;
+  }
+
+
 
     
   
