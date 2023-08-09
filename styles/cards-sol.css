@@ -1,22 +1,20 @@
-/* Font */
+/* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Design */
+/* RESET */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* VARIÁVEIS */
 :root{
     --cor--primaria: #132B39;
     --cor--secundaria: #86C549;
     --cor--terciaria: #FFFFFF;
     --cor--quaternaria: #27272795;
-}
 
-/* FONTES */
-:root{
     --fonte--primaria: 'Inter', sans-serif;
 }
 

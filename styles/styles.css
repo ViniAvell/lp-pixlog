@@ -298,6 +298,7 @@ body{
   display: flex;
   flex-direction: row; 
   padding: 10px 100px 0px 100px;
+  gap: 10px;
 }
 
   .section__04__plan h1 {
@@ -321,9 +322,7 @@ body{
 
   .card__planos__layout {
     display: flex;
-    padding: 30px 100px 30px 100px;
-    
-    
+    padding: 30px 100px 30px 100px;    
   }
 
   .card__planos {
@@ -333,22 +332,21 @@ body{
   max-height: 400px;
   margin: auto;
   text-align: center;
-  border-radius: 1rem;
-  
+  border-radius: 1rem;  
 }
 
 .card__planos h1 {
   color: var(--cor--terciaria);
+  font-size: 1.5rem;
+  
   background: var(--cor--primaria);
-  border-radius: 1rem 1rem 0  0;
-  
-  
+  border-radius: 1rem 1rem 0  0; 
+  padding: 20px 45px 20px 45px;
 }
 
 .card__planos:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 20px 50px 0 rgba(0,0,0,0.2);
 }
-
 
 .card__planos__container {  
   color: var(--cor--primaria);
