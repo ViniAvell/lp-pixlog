@@ -352,11 +352,13 @@ body{
 
 .card__planos h3 {
   font-size: 20px;
+  font-weight: 600;
   padding-top: 30px;
 }
 
 .card__planos h4 {
   font-size: 15px;
+  font-weight: 500;
 }
 
 
