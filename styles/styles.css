@@ -461,12 +461,12 @@ body{
 }
 
 .section__06 {
-  background: linear-gradient(45deg, rgba(19,43,57,1) 50%, #4194C4 100%);
+  background: var(--cor--primaria)
 }
 
 .section__06 h1 {
   color: var(--cor--terciaria);
-  font-weight:bold; 
+  font-weight:bold;
 }
 
 .section__06 p {
@@ -474,7 +474,20 @@ body{
   color: var();
   font-size: 14px;
   font-weight: 400;
+  text-align: justify; 
 }
+
+.section__06__titulo__layout {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 250px;
+}
+
+.section__06__titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  }
 
 
 
