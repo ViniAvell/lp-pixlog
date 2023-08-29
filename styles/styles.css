@@ -112,7 +112,7 @@ body{
 }
 
 /* CARD CAPTURA DE LEADS */
-.card {
+.card_leads {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -461,6 +461,10 @@ body{
 }
 
 .section__06 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
   background: var(--cor--primaria)
 }
 

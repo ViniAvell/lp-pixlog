@@ -16,14 +16,6 @@
     --fonte--primaria: 'Inter', sans-serif;
 }
 
-body {
-  display: flex;
-  padding: 0 35px;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: linear-gradient(to left top, #132B39, #86C549);
-}
 .wrapper {
   max-width: 1100px;
   width: 100%;
