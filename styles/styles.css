@@ -464,7 +464,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 960px;
+  padding-bottom: 150px;
   background-image: url('/assets/img-captable.png');
 }
 
@@ -493,4 +493,10 @@ body{
   gap: 10px;
   }
 
+  .section__07 {
+    background-color: var(--cor--primaria);
+  }
+
+
+  
   
