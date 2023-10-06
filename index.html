@@ -544,30 +544,32 @@
     </div>
 
     <div class="Section__07__Formulario">
+
       <h1>Fale com a gente!</h1>
-
       <form>
-      <fieldset>
-        <div>
-          <label>Nome</label>
-          <input type="text" name="nome" id="nome">
-        </div>
-
-        <div>
-          <label>Telefone</label>
-          <input type="tel" name="telefone" id="telefone">
-        </div>
+      <fieldset class="Formulario__Grupo">
+      <div class="Section__07__Formulario__Campo">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required>
+      </div>
+      <div>
+      <label for="telefone">Telefone</label>
+      <input type="tel" name="telefone" id="telefone" required>
+      </div>
       </fieldset>
 
-      <div>
-        <label>Email</label>
-        <input type="email" name="email" id="email">
+      <div class="Section__07__Formulario__Campo">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
       </div>
 
-
-
-
-
+      <fieldset class="Fomulario__Grupo">
+      <div class="Section__07__Formulario__Campo">
+      <label for="mensagem">Mensagem</label><br>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea><br>
+      <button class="Section__07__Formulario__Botao" type="submit">Enviar</button>
+      </div>
+      </fieldset>
       </form>
 
       
